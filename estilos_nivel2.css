@@ -1,0 +1,307 @@
+.poscicion_001 {
+    position: fixed;
+    margin-left: 34.5%;
+    top: 4%;
+}
+
+#tamaño_001 {
+    position: fixed;
+    width: 400px;
+    height: 60px;
+}
+
+.poscicion_002 {
+    position: fixed;
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    z-index: 1;
+}
+
+#tamaño_002 {
+    width: 45px;
+    height: 60px;
+    position: fixed;
+
+}
+
+.poscicion_003 {
+    position: fixed; 
+    left: 1268.9px;
+    top: 300px;
+    z-index: 3;
+}
+
+#tamaño_003 {
+    width: 45px;
+    height: 60px;
+    display: none;
+}
+
+.fondo {
+    position: fixed;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.fondo #imagenfondo {
+    position: fixed;
+    width: 80%;
+    height: 100%;
+    padding-left: 9.3%;
+    margin-top: -0.6%;
+}
+
+#imagenfondo {
+    position: absolute;
+    z-index: -1;
+}
+
+
+.poscicion_002:hover 
+
+#tamaño_002 {
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9);
+    transition:all .4s ease-in-out;
+}
+
+.poscicion_002 {overflow:hidden;}
+
+
+.poscicion_003:hover 
+
+#tamaño_003 {
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9);
+    transition:all .4s ease-in-out;
+}
+
+.poscicion_003 {overflow:hidden;}
+
+.cuadros {
+    padding-left: 326.5px;
+    padding-top: 90px;
+}
+
+.cuadrosrespuesta {
+    z-index: -1;
+    position: fixed;
+    padding-left: 326.5px;
+    margin-top: 7px;
+}
+
+#contenedor1, #contenedor2, #contenedor3 {
+    position: absolute;
+    /*border: 2px solid #F00;*/
+    width: 194px;
+    height: 50px;
+    margin-top: -4px;
+}
+
+#contenedor1 {
+    left: 350px;
+}
+
+#contenedor2 {
+    left: 583px;
+}
+
+#contenedor3 {
+    left: 817px;
+}
+
+
+body {
+    background-image: url('https://img4.goodfon.ru/original/1366x768/1/2e/multfilm-shou-simpsons-personazh-20th-century-fox-art-ris-15.jpg');
+}
+
+.respuestas {
+    margin-top: 50px;
+}
+
+#respuestas1 {
+    position: fixed;
+    margin: auto;
+    width: 190px;
+    height: 120px;
+    left: 353.3333px;
+    margin-top: 15px;
+}
+
+#respuestas2 {
+    position: fixed;
+    margin: auto;
+    width: 180px;
+    height: 120px;
+    left: 591.6px;
+    margin-top: 10px;
+}
+
+#respuestas3 {
+    position: fixed;
+    margin: auto;
+    width: 175px;
+    height: 120px;
+    left: 825.33px;
+    margin-top: 10px;
+}
+
+
+#word1, #word2, #word3 {
+    margin-top: 20px;
+
+}
+
+.word1:hover
+
+#word1 {
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9);
+    transition:all .4s ease-in-out;
+}
+
+.word2:hover
+
+#word2 {
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9);
+    transition:all .4s ease-in-out;
+}
+
+.word3:hover
+
+#word3 {
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9);
+    transition:all .4s ease-in-out;
+}
+
+#word4, #word5, #word6 {
+    margin-top: 20px;
+}
+
+.word4:hover
+
+#word4 {
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9);
+    transition:all .4s ease-in-out;
+}
+
+.word5:hover
+
+#word5 {
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9);
+    transition:all .4s ease-in-out;
+}
+
+.word6:hover
+
+#word6 {
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9);
+    transition:all .4s ease-in-out;
+}
+
+#word7, #word8, #word9 {
+    margin-top: 20px;
+
+}
+
+.word8 {
+    margin-left: 7.15px;
+}
+.word9 {
+    margin-left: 7.15px;
+}
+
+
+.word7:hover
+
+#word7 {
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9);
+    transition:all .4s ease-in-out;
+}
+
+.word8:hover
+
+#word8 {
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9);
+    transition:all .4s ease-in-out;
+}
+
+.word9:hover
+
+#word9 {
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9);
+    transition:all .4s ease-in-out;
+}
+
+#respuestas1, #respuestas2, #respuestas3 {
+    /*border: 2px solid #F00;*/
+    height: 150px;
+}
+
+
+#correcto2 {
+    display: none;
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
+
+#mascota {
+    margin: auto;
+    position: absolute;
+    left: 80%;
+    top: 20%;
+    -webkit-animation:miAnimacion 3s;
+}
+
+#letreromascota {
+    margin: auto;
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    -webkit-animation:miAnimaciondos 3s;
+}
+
+#letreromascota2 {
+    margin: auto;
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    display: none;
+}
+
+@-webkit-keyframes miAnimacion {
+    from {left:87.7%;}
+    to {left:80%;}
+}
+
+@-webkit-keyframes miAnimaciondos {
+    from {left:82.7%;}
+    to {left:75%;}
+}
+
+#gifcorrecto {
+    margin: auto;
+    position: absolute;
+    left: 41.8%;
+    top: 30%;
+    width:220px; 
+    height:220px;
+    display: none;
+    -webkit-animation:miAnimaciontres 1.5s;
+}
+
+@-webkit-keyframes miAnimaciontres {
+    from {width:100px; height: 100px; left: 46.4%; top: 40%;}
+    to {width:220px; height: 220px; left: 41.8%}
+}
